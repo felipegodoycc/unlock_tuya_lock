@@ -8,8 +8,7 @@ This is a simple script to unlock a Tuya lock using the Tuya API Developer Platf
 
 1. Create a new project on the Tuya API Developer Platform. 
 2. Add the `client_id` and `client_secret` to the python script.
-3. You can get the `device_id` of your lock by running the script and
-opening the lock.
+3. You can get the `device_id` of your lock using the `tinytuya` library or the Tuya API Developer Platform.
 3. Run the script.
 
 For create a new project on the Tuya API Developer Platform and get the `device_id` of your lock, follow the steps below this repository: [TiniTuya Repository](https://github.com/jasonacox/tinytuya?tab=readme-ov-file)
